@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a00934b9-8242-4114-b0d8-c09863dc1c27" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
-      <change afterPath="$PROJECT_DIR$/src/Loops_For_While/numberWithSpace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Loops_For_While2/task_Faktorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Loops_For_While2/task_For_num.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practise.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,21 +25,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "CleanRoar"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;CleanRoar&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/CleanRoar/Atl-Academy-Java1.git",
-    "accountId": "7e1c169a-2f6a-4909-9cd7-4970485c7e22"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/CleanRoar/Atl-Academy-Java1.git&quot;,
+    &quot;accountId&quot;: &quot;7e1c169a-2f6a-4909-9cd7-4970485c7e22&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2oqp6eVjmgT3aM1K7QdJrvVxlbG" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,7 +48,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Loops_For_While.executor": "Run",
+    "Application.Practise.executor": "Run",
     "Application.numberWithSpace.executor": "Run",
+    "Application.task_Faktorial.executor": "Run",
+    "Application.task_For_num.executor": "Run",
     "Application.task_chess64.executor": "Run",
     "Application.task_for_if.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -97,7 +102,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731619699159</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1731622309419</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731622309419</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
