@@ -7,7 +7,7 @@ public class task_WhileSum {
         //Task : Sira ile ededler daxil edilir ve her daxil edilen ededlerin cemi tapilsin.
         //       Dongunu sonlandirmaq ucun ise "0" reqemi daxil edilsin .
         Scanner sc =new Scanner(System.in);
-        System.out.println("Eded daxil edin (Dongunu sonlandirmaq ucun '-1' daxil olun): ");
+        System.out.println("Eded daxil edin (Dongunu sonlandirmaq ucun '0' daxil olun): ");
         int toplama =0; // Daxil edilen ededleri toplarken hesablama duzgun olsun deye '1' deyeri vererik.
 
         // while-e true deyeri verdik cunki bize sonsuz dongu lazimdir .
