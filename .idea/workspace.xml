@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a00934b9-8242-4114-b0d8-c09863dc1c27" name="Changes" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/task_arr1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/task_arr2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/task_arr3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Arrays/task_arr4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Arrays/task_arr1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/task_arr1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Practise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practise.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,8 +52,13 @@
     "Application.Loops_For_While.executor": "Run",
     "Application.Practise.executor": "Run",
     "Application.numberWithSpace.executor": "Run",
+    "Application.task_DoWhile10.executor": "Run",
     "Application.task_Faktorial.executor": "Run",
     "Application.task_For_num.executor": "Run",
+    "Application.task_WhileSum.executor": "Run",
+    "Application.task_arr2.executor": "Run",
+    "Application.task_arr3.executor": "Run",
+    "Application.task_arr4.executor": "Run",
     "Application.task_chess64.executor": "Run",
     "Application.task_for_if.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -125,15 +133,31 @@
       <option name="project" value="LOCAL" />
       <updated>1731714527513</updated>
     </task>
-    <task id="LOCAL-00008" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+    <task id="LOCAL-00008" summary="Merge remote-tracking branch 'origin/main'">
       <option name="closed" value="true" />
-      <created>1731716410916</created>
+      <created>1731715082768</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1731716410916</updated>
+      <updated>1731715082768</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1731715133729</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1731715133729</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <option name="closed" value="true" />
+      <created>1731849965822</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1731849965822</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -148,6 +172,21 @@
           <url>file://$PROJECT_DIR$/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Practise.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Practise.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Practise.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

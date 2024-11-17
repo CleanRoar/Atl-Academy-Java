@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class task_arr1 {
     public static void main(String[] args) {
-        // Task: array elementlerin scannerle daxil edin sonra onlari bir setirde cap edin
+        // Task: Array elementlerin scannerle daxil edin sonra onlari bir setirde cap edin
         // arr uzunlugu 5 olsun yeni array[5].
 
         Scanner sc = new Scanner(System.in);
