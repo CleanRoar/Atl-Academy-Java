@@ -1,11 +1,15 @@
 package OOP_Academy;
 
-public class student extends academy{
+public class Student extends Academy {
     public String telebeAdi;
     public int id;
     public String kurs;
 
-    public student(String name, String localAddress, String telebeAdi, int id, String kurs) {
+    public Student(){}
+
+
+
+    public Student(String name, String localAddress, String telebeAdi, int id, String kurs) {
         super(name, localAddress);
         this.telebeAdi = telebeAdi;
         this.id = id;

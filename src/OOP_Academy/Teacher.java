@@ -1,10 +1,12 @@
 package OOP_Academy;
 
-public class teacher extends academy{
+public class Teacher extends Academy {
     public int teacherID;
     public String subject;
 
-    public teacher(String name, String localAddress, int teacherID, String subject) {
+    public Teacher(){}
+
+    public Teacher(String name, String localAddress, int teacherID, String subject) {
         super(name, localAddress);
         this.teacherID = teacherID;
         this.subject = subject;

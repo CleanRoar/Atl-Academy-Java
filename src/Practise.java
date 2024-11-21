@@ -1,17 +1,7 @@
-import java.util.Scanner;
+public interface Practise extends Practise3 {
+    void work();
+    double calculate(int a);
 
-public class Practise {
-    public static void main(String[] args) {
+    private void a1(){}
 
-
-
-
-
-
-
-    }
 }
-
-
-
-
