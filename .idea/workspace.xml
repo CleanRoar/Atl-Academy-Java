@@ -4,26 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a00934b9-8242-4114-b0d8-c09863dc1c27" name="Changes" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/Main.java&#10;#&#9;src/Practise.java">
-      <change afterPath="$PROJECT_DIR$/src/OOP_BankAccount/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOP_VehicleInterface/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOP_VehicleInterface/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOP_VehicleInterface/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOP_VehicleInterface/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practise2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practise3.java" afterDir="false" />
+    <list default="true" id="a00934b9-8242-4114-b0d8-c09863dc1c27" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
+      <change afterPath="$PROJECT_DIR$/src/BankAppFullOOP/BankCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BankAppFullOOP/BankOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BankAppFullOOP/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BankAppFullOOP/InsufficientFundsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BankAppFullOOP/InvalidAmountException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BankAppFullOOP/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BankAppFullOOP/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ManagerOOP/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ManagerOOP/Empoleyer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ManagerOOP/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ManagerOOP/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP_VehicleInterface/ElektrikCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practise/Sezon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP_Academy/academy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP_Academy/Academy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP_Academy/student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP_Academy/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP_Academy/teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP_Academy/Teacher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP_Academy/testAcademy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP_Academy/TestAcademy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP_CarClass/TestCar.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP_CarClass/bmw.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP_CarClass/car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP_CarClass/ford.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP_CarClass/tesla.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Practise.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOP_VehicleInterface/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP_VehicleInterface/Bike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOP_VehicleInterface/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP_VehicleInterface/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOP_VehicleInterface/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP_VehicleInterface/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/OOP_VehicleInterface/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP_VehicleInterface/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practise.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practise2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practise3.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +36,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -53,7 +57,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -65,7 +69,11 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.BankAmount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankAppFullOOP.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BookShopOOP.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.Loops_For_While.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
     &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;Application.Person.executor&quot;: &quot;Run&quot;,
     &quot;Application.Practise.executor&quot;: &quot;Run&quot;,
@@ -80,9 +88,76 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ACER/IdeaProjects/DersJava/src/Main.java&quot;
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ACER/IdeaProjects/DersJava/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
+  <component name="RunManager" selected="Application.BankAppFullOOP.Main">
+    <configuration name="BankAmount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BankAmount" />
+      <module name="DersJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankAppFullOOP.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BankAppFullOOP.Main" />
+      <module name="DersJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BankAppFullOOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookShopOOP.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BookShopOOP.Main" />
+      <module name="DersJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BookShopOOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="DersJava" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOP_VehicleInterface.Main" />
+      <module name="DersJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OOP_VehicleInterface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BankAppFullOOP.Main" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.BookShopOOP.Main" />
+        <item itemvalue="Application.BankAmount" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -172,13 +247,49 @@
       <option name="project" value="LOCAL" />
       <updated>1732228062018</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1732557740510</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1732557740510</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1732557745679</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1732557745679</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1732557774755</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1732557774755</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/Main.java&#10;#&#9;src/Practise.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/Main.java&#10;#&#9;src/Practise.java" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/Practise/Sezon.java</url>
+          <line>9</line>
+          <properties field="max" class="Practise.Sezon" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

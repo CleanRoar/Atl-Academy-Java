@@ -10,4 +10,23 @@ public class Car implements Vehicle{
     public void stopEngine() {
         System.out.println("Masinin Muheriki sonduruldu .");
     }
+
+    @Override
+    public void getFuelType() {
+        System.out.println("Masinin enerji teminati : Benzindir ");
+    }
+
+
+
+
+
+
+
 }
+
+
+
+
+
+
+

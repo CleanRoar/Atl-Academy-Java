@@ -10,4 +10,11 @@ public class Bike implements Vehicle{
     public void stopEngine() {
         System.out.println("Bike-in Muheriki sonduruldu .");
     }
+
+    @Override
+    public void getFuelType() {
+        System.out.println("Bike-in enerji teminati : Dizeldir. ");
+    }
+
 }
+
