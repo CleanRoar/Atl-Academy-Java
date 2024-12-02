@@ -25,20 +25,19 @@ public class Director extends Manager{
     @Override
     public void strategicPlan() {
         super.strategicPlan();
-        System.out.println(name + " is creating a strategic plan for " + department + " department.");
+
     }
 
     @Override
     public void workerInfo() {
         super.workerInfo();
-        System.out.println("Iscnin adi : "+name+" | Iscinin departamenti : "+department);
+
     }
 
     @Override
     public void printInfo() {
         super.printInfo();
-        System.out.println("Employee Info: ID=" + id + ", Name=" + name + ", Department=" + department
-                + ", Years=" + year + ", Salary=" + maasIleGoreHesablanmasi());
+
     }
 }
 
