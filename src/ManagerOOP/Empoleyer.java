@@ -6,14 +6,14 @@ public class Empoleyer {
     public int year;
     public String department;
     public static final int BASE_SALARY = 500;
-    public double bonus;
+
 
     public Empoleyer(int no, String name, int year, String department) {
         this.id = no;
         this.name = name;
         this.year = year;
         this.department = department;
-        this.bonus=bonus;
+
     }
 
     public int getId() {
@@ -49,15 +49,24 @@ public class Empoleyer {
         this.department = department;
     }
 
-    public double getBonus() {
-        return bonus;
+
+
+    public double maasIleGoreHesablanmasi(){
+        return year*BASE_SALARY;
+    }
+    public void strategicPlan() {
+        System.out.println(name + " is creating a strategic plan for " + department + " department.");
+    }
+    public void printInfo() {
+        System.out.println("Employee Info: ID=" + id + ", Name=" + name + ", Department=" + department
+                + ", Years=" + year + ", Salary=" + maasIleGoreHesablanmasi());
+    }
+    public void workerInfo(){
+        System.out.println("Iscnin adi : "+name+" | Iscinin departamenti : "+department);
     }
 
-    public void setBonus(double bonus) {
-        this.bonus = bonus;
-    }
 
-    public double maas(){
-        return BASE_SALARY+bonus;
-    }
+
+
+
 }
