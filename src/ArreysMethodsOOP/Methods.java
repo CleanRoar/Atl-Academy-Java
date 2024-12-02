@@ -55,9 +55,10 @@ public class Methods {
     }
 
     public void tersArrey(int[] arrey) {
-        for (int i = arrey.length - 1; i >= 0; i--) {
-            System.out.println(arrey[i]);
-        }
+//        for (int i = arrey.length - 1; i >= 0; i--) {
+//            System.out.println(arrey[i]);
+//        }
+
     }
 
 
