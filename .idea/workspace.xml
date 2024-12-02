@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a00934b9-8242-4114-b0d8-c09863dc1c27" name="Changes" comment="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;src/Main.java" />
+    <list default="true" id="a00934b9-8242-4114-b0d8-c09863dc1c27" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
+      <change afterPath="$PROJECT_DIR$/src/ArreysMethodsOOP/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ArreysMethodsOOP/Methods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StudentRegisterOOP/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StudentRegisterOOP/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ManagerOOP/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ManagerOOP/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +54,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ArreysMethodsOOP.Main.executor": "Run",
     "Application.BankAmount.executor": "Run",
     "Application.BankAppFullOOP.Main.executor": "Run",
     "Application.BookShopOOP.Main.executor": "Run",
@@ -59,6 +68,7 @@
     "Application.numberWithSpace.executor": "Run",
     "Application.task_Faktorial.executor": "Run",
     "Application.task_For_num.executor": "Run",
+    "Application.task_arr2.executor": "Run",
     "Application.task_chess64.executor": "Run",
     "Application.task_for_if.executor": "Run",
     "Application.testAcademy.executor": "Run",
@@ -72,7 +82,20 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ManagerOOP.Main">
+  <component name="RunManager" selected="Application.ArreysMethodsOOP.Main">
+    <configuration name="ArreysMethodsOOP.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArreysMethodsOOP.Main" />
+      <module name="DersJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ArreysMethodsOOP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BankAppFullOOP.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BankAppFullOOP.Main" />
       <module name="DersJava" />
@@ -86,35 +109,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookShopOOP.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BookShopOOP.Main" />
-      <module name="DersJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BookShopOOP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="DersJava" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OOP_VehicleInterface.Main" />
-      <module name="DersJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OOP_VehicleInterface.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -132,13 +129,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="task_arr2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arrays.task_arr2" />
+      <module name="DersJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArreysMethodsOOP.Main" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.task_arr2" />
         <item itemvalue="Application.ManagerOOP.Main" />
         <item itemvalue="Application.BankAppFullOOP.Main" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.BookShopOOP.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -295,15 +305,31 @@
       <option name="project" value="LOCAL" />
       <updated>1733136598986</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1733137069720</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1733137069720</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1733137078211</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1733137078211</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/Main.java&#10;#&#9;src/Practise.java" />
-    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;src/Main.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;src/Main.java" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -311,7 +337,7 @@
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/src/Practise/Sezon.java</url>
           <line>9</line>
-          <properties field="max" class="Practise.Sezon" />
+          <properties field="min" class="Practise.Sezon" />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

@@ -25,7 +25,6 @@ public class Main {
         direktor.strategicPlan();
         direktor.printInfo();
 
-        System.out.println();
 
 
 
