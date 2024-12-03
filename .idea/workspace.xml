@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a00934b9-8242-4114-b0d8-c09863dc1c27" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
-      <change afterPath="$PROJECT_DIR$/src/ArrayListLinkedList/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayListLinkedList/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayListLinkedList/Task3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayListLinkedList/Task4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArrayListLinkedList/Task5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Hobby.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LibraryApp/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LibraryApp/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LibraryApp/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArreysMethodsOOP/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArreysMethodsOOP/Methods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +66,7 @@
     "Application.Practise.executor": "Run",
     "Application.Task3.executor": "Run",
     "Application.Task4.executor": "Run",
+    "Application.Task5.executor": "Run",
     "Application.TestAcademy.executor": "Run",
     "Application.numberWithSpace.executor": "Run",
     "Application.task2.executor": "Run",
@@ -86,7 +86,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Task5">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="DersJava" />
@@ -94,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayListLinkedList.Task2" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LibraryApp.Main" />
       <module name="DersJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ArrayListLinkedList.*" />
+          <option name="PATTERN" value="LibraryApp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Task5" />
         <item itemvalue="Application.Task4" />
         <item itemvalue="Application.Task3" />
-        <item itemvalue="Application.Task2" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -341,7 +341,31 @@
       <option name="project" value="LOCAL" />
       <updated>1733178066998</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1733261274419</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1733261274419</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1733261279078</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1733261279078</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1733261295048</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1733261295048</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

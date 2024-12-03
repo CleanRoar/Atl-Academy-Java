@@ -1,33 +1,44 @@
 import OOP_BankAccount.BankAccount;
 
+import java.security.Key;
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.Period;
 import java.util.*;
 
+import static javax.swing.UIManager.put;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //Tapşırıq 3: Elementləri silin
-        //ArrayList yaradın, 7 element əlavə edin.
-        //Üçüncü və beşinci elementləri silin.
-        //Yerdə qalan siyahını çap edin.
 
+       HashMap <String,String> test =new HashMap<>();
 
-        ArrayList<Integer> test = new ArrayList<>();
+        test.put("20","Gence");
+        test.put("51","Semkir");
+        test.put("90","Baki");
 
-        for (var i =0 ; i<7;i++){
-            test.add(i);
-            System.out.println( test.get(i));
+        System.out.println(test.get("20"));
+
+        System.out.println(test.containsValue("20"));
+
+        for (String i : test.keySet()){
+            System.out.println(i);
         }
-        test.remove(3);
-        test.remove(5);
-        System.out.println(test);
+
+        for (String i : test.values()){
+            System.out.println(i);
+        }
+
 
 
 
 
 
     }
+
+
+
+
 }
