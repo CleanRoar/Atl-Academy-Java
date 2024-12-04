@@ -1,11 +1,14 @@
 package LibraryApp;
 
+import LibraryApp.Xetalar.IcaredeYoxdurVeyaVar;
+import LibraryApp.Xetalar.YalnisKitabDaxilEtme;
+
 import java.util.ArrayList;
 
 public class Library {
 
     //Book clasini list yaradaraq add kimi methodlar yaradarq bir liste salacam .
-    private ArrayList<Book> list;
+    private  ArrayList<Book> list;
 
 
     // 2 Constraktor yaradiram cunki mainde cagirarken doldurmaq istemirem.
@@ -16,7 +19,7 @@ public class Library {
 
 
     //Constraktorda listi yeni bir liste beraber edirik !
-    public Library(Book list) {
+    public  Library(Book list) {
         this.list = new ArrayList<>();
     }
 
@@ -39,7 +42,7 @@ public class Library {
     // movcutdur o zaman onceden teyin etdiyim movcud boolean truedur . amma men kitabi icareye goturende kitab yene
     // movcut olmamalidir axi ona gorede if-in daxilinde if acaraq yeni movcut boolean-i false edirem .
 
-    public void icare(String basliq){
+    public void icare(String basliq) {
         for (Book i : list){
             if (basliq.equalsIgnoreCase(i.getKitabAdi())){
                 if (i.isMovcud()){
@@ -47,16 +50,19 @@ public class Library {
                     System.out.println("Bu "+basliq+" kitab var ve icareye verildi .");
                 }
                 else {
-                    System.out.println("Bu "+basliq+" kitab icarededir .");
+                    throw new IcaredeYoxdurVeyaVar("Bu "+basliq+" kitab icarededir .");
                 }
                 return;
             }
+            else {
+                throw new YalnisKitabDaxilEtme("Kitab adini yalnis daxil etdin  ");
+            }
         }
-        System.out.println("Bu kitab tapilmadi .");
+
 
     }
 
-    public void geriQaytar(String basliq){
+    public void geriQaytar(String basliq)  {
         for (Book i : list){
             if (i.getKitabAdi().equalsIgnoreCase(basliq)){
                 if (!i.isMovcud()) {
@@ -64,13 +70,14 @@ public class Library {
                     System.out.println("Bu "+basliq+" kitab icareden qaytarildi. ");
                 }
                 else {
-                    System.out.println("Bu "+basliq+" kitab icarede deyil .");
+                    throw new IcaredeYoxdurVeyaVar("Bu "+basliq+" kitab icarede deyil .");
                 }
                 return;
             }
+            throw new YalnisKitabDaxilEtme("Kitab adini yalnis daxil etdin ");
 
         }
-        System.out.println("Bu kitab tapilmadi .");
+
     }
 
 
