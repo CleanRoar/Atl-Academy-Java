@@ -20,7 +20,7 @@ public class Main {
             test.findStudent(15);
         }
         catch (YalnisId e){
-            System.out.println("Id-ye uygun telebe tapilmadi .");
+            System.out.println(e.getMessage());
         }
 
 
