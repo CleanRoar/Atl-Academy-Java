@@ -14,8 +14,8 @@ public class Task4 {
         test.add(4);
         test.add(5);
 
-//        Collections.reverse(test);   Method olaraq Collections interfaci import ederek Collecgtions.reverse() methodu
-//        System.out.println(test);    cagira bilerik.
+//        Collections.reverse(Interface);   Method olaraq Collections interfaci import ederek Collecgtions.reverse() methodu
+//        System.out.println(Interface);    cagira bilerik.
 
         for (int i =test.size()-1 ; i>=0;i--){
             System.out.println(test.get(i));
