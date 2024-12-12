@@ -1,16 +1,15 @@
 package TravelAPP;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Customer {
     private int customerId;
     private List<Tour> customerPackagetour;
 
-    public Customer(int customedId, List<Tour> customerPackageList) {
-        this.customerId = customedId;
-        this.customerPackagetour =customerPackageList;
-
-
+    public Customer(int customerId, List<Tour> customerPackagetour) {
+        this.customerId = customerId;
+        this.customerPackagetour = customerPackagetour;
     }
 
     public int getCustomerId() {
@@ -30,15 +29,16 @@ public class Customer {
     }
 
 
-    public void coustomerTourReserve(Tour tour){
+    public void customerTourReserve(Tour tour){
         if (!tour.isReserved()){
-            tour.isReserved();
+            tour.reserveTourPackage();
             customerPackagetour.add(tour);
-            System.out.println("Tour"+tour.getTourName()+"Has added List");
+            System.out.println("Tour"+tour.getTourName()+" paket sizin siyahiya elave edildi");
         }
         else {
-            System.out.println("Tour paketi rezerv olunub artiq.");
+            System.out.println("Tour paketi artiq reserve olunub");
         }
+
     }
 
     public void coustomerTourCancel(Tour tour){
@@ -50,5 +50,19 @@ public class Customer {
         else {
             System.out.println("Tour paketi rezerv olunub artiq.");
         }
+    }
+
+    public void displayDetails1() {
+        System.out.println("Customer ID: " +customerId+" Reserved :"+ customerPackagetour);
+
+
+    }
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "customerId=" + customerId +
+                ", customerPackagetour=" + customerPackagetour +
+                '}';
     }
 }

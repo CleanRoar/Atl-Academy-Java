@@ -29,7 +29,7 @@ public enum TourPackage   {
     DESERT_SAFARI {
         @Override
         public void diplayInfo() {
-            System.out.println("Cimerlik");
+            System.out.println("Sehra");
         }
     };
 

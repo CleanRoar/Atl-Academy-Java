@@ -1,4 +1,8 @@
+import java.time.Instant;
+import java.time.LocalDate;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 
@@ -8,48 +12,56 @@ public class Main {
     public static void main(String[] args) {
 
 
-
-//        Interface x = (a,b)->{
-//            var sum =a+b;
-//            var average=sum/2;
-//            return sum + average;
-//        };
-//        System.out.println(x.k(10,2));
-//
-////        FcInterface c =(a)->{
-////            for (var i =0 ; i<=10; i++){
-////                System.out.println(i*a);
+//        Human insan =new Human();
+//        ArrayList<Human> test =new ArrayList<>();
+//        LocalDate doguymGunu =LocalDate.of(2002,5,30);
+//        test.add(new Human("Kenan", doguymGunu,22));
+//        test.add(new Human("Kamran", doguymGunu,23));
+//        test.add(new Human("Cavid", doguymGunu,18));
+//        Map<String, Integer> test2 =new HashMap<>();
+////
+////        test.forEach((x)->{
+////            if (x.getYas()>20){
+////                System.out.println(x);
 ////            }
-////        };
-////        c.test(10);
+////        });
 //
-//        ArrayList<Integer> test =new ArrayList<>();
-//        test.add(1);
-//        test.add(2);
-//        test.add(3);
-//        test.add(4);
-//        test.add(5);
+//        test.forEach((x)->{
+//            test2.put(x.getName(), x.getYas());
+//        });
 //
-//        test.forEach(System.out::println);
-//
+//        System.out.println(test2);
 
 
-//        Consumer<String> javaninRuturnOlmayanInerfacei = name->{
-//            System.out.println(name.toLowerCase());
-//        };
-//        javaninRuturnOlmayanInerfacei.accept("sesddsa");
+        String ulduz ="*";
+        String bosluq =" ";
 
-        Predicate<String> test2 =(a)->{
-            if (a.equals("kenan")){
-                System.out.println("acssec");
+
+        for (var i = 1; i <= 5; i++) {
+            // Boşluqları çap edirik ki, ulduzlar mərkəzlənsin
+            for (var j = 1; j <= 5 - i; j++) {
+                System.out.print(" "); // Boşluqları çap edirik
             }
-            else {
-                System.out.println("wrong");
+            // Ulduzları çap edirik
+            for (var k = 1; k <= (2 * i - 1); k++) {
+                System.out.print(ulduz); // Ulduzları çap edirik
             }
-            return false;
-        };
+            // Yeni sətrə keçirik
+            System.out.println();
+        }
 
-        test2.test("kenan");
+
+
+
+
+
+
+
+
+
+
+
+        }
 
 
 
@@ -69,4 +81,3 @@ public class Main {
 
 
 
-}

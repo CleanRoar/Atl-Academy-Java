@@ -11,7 +11,7 @@ public class Tour {
         this.tourID = tourID;
         this.tourName = tourName;
         this.price = price;
-        this.isReserved = true;
+        this.isReserved = false;
         this.tourPackage = tourPackage;
     }
 
@@ -55,15 +55,11 @@ public class Tour {
         this.tourPackage = tourPackage;
     }
 
-    public void displayInfo() {
-    }
-
-    ;
 
     public void reserveTourPackage() {
-        if (isReserved) {
+        if (!isReserved) {
             System.out.println("Tur paketi rezerv olundu");
-            isReserved = false;
+            isReserved = true;
 
         } else {
             System.out.println("Tur paketi onceden rezerv olunub . Artiq movcut deyil. ");
@@ -72,9 +68,9 @@ public class Tour {
     }
 
     public void canselTourPackage() {
-        if (!isReserved) {
+        if (isReserved) {
             System.out.println("Tur paketi legv edildi");
-            isReserved = true;
+            isReserved = false;
         } else {
             System.out.println("Tur paketi onceden rezerv olunmayib .");
         }
@@ -88,5 +84,16 @@ public class Tour {
                 ", Reserved: " + (isReserved ? "Yes" : "No"));
 
 
+    }
+
+    @Override
+    public String toString() {
+        return "Tour{" +
+                "tourID=" + tourID +
+                ", tourName='" + tourName + '\'' +
+                ", price=" + price +
+                ", isReserved=" + isReserved +
+                ", tourPackage=" + tourPackage +
+                '}';
     }
 }
