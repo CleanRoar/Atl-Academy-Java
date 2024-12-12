@@ -9,13 +9,6 @@ public class Main {
         // Consumer interfeysinin ümumi istifadə hallarına çap, giriş və yeniləmə vəziyyəti daxildir.
         // Consumer-de accept metodu ile deyer oturulur .
 
-        Consumer<String> test =(str)->{
-            System.out.println(str.toLowerCase());
-        };
-
-        test.accept("KENAN");
-
-
 
 //        Predicate interfeysi bir giriş qəbul edən və müəyyən bir şərtə əsaslanaraq
 //        boolean dəyəri qaytaran mantiqi dəyərli funksiyanı təmsil edir.
@@ -25,23 +18,43 @@ public class Main {
 //        Məlumatların filtrasiyası, doğrulama və şərti emal kimi tapşırıqlar üçün faydalıdır.
 //        Predicate-de deyer test methodu ile oturul.
 
-        Predicate<String> test2 =(a)->{
+
+
+        FakeConsumer<Integer> test= System.out::println;
+        test.add(1);
+
+
+        FakeFunction<Integer,Double> test2= (a)->a/2.0;
+        System.out.println(test2.qaytar(10));
+
+
+        FakePredicate<String> test3 = (a)->{
             if (a.equals("Kenan")){
-                System.out.println("Giris basarili");
+                System.out.println("Giris basarili ");
             }
             else {
                 System.out.println("Giris basarisiz");
             }
             return false;
         };
-        test2.test("Veli");
+
+        test3.deyer("Kenans");
 
 
-        BiFunction<Integer,Integer,Integer> test3 = (a,b)->a+b;
-        System.out.println(test3.apply(2,3));
+        FakeSupplier<String> test4=()->"Salam olsun Deyerli Mentorlara";
+        System.out.println(test4.nese());
 
-        Supplier<String> test4 =()->"Kenan";
-        System.out.println(test4.get());
+        FakeBiFunction<Integer ,Integer,Integer> test5 = (a, b) -> a * b;
+        System.out.println(test5.biQaytar(2,3));
+
+
+
+
+
+
+
+
+
 
 
 
