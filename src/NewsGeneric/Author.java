@@ -24,4 +24,12 @@ public class Author<T> {
     public void setLastName(T lastName) {
         this.lastName = lastName;
     }
+
+    @Override
+    public String toString() {
+        return "Author{" +
+                "firstName=" + firstName +
+                ", lastName=" + lastName +
+                '}';
+    }
 }

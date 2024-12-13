@@ -1,11 +1,11 @@
 package NewsGeneric;
 
-public class Catogary<T> {
+public class Category<T> {
     private T catogaryName;
 
 
 
-    public Catogary(T catogaryName) {
+    public Category(T catogaryName) {
         this.catogaryName = catogaryName;
     }
 
@@ -15,5 +15,12 @@ public class Catogary<T> {
 
     public void setCatogaryName(T catogaryName) {
         this.catogaryName = catogaryName;
+    }
+
+    @Override
+    public String toString() {
+        return "Category{" +
+                "catogaryName=" + catogaryName +
+                '}';
     }
 }

@@ -19,20 +19,18 @@ public class Main {
 //        Predicate-de deyer test methodu ile oturul.
 
 
-
-        FakeConsumer<Integer> test= System.out::println;
+        FakeConsumer<Integer> test = System.out::println;
         test.add(1);
 
 
-        FakeFunction<Integer,Double> test2= (a)->a/2.0;
+        FakeFunction<Integer, Double> test2 = (a) -> a / 2.0;
         System.out.println(test2.qaytar(10));
 
 
-        FakePredicate<String> test3 = (a)->{
-            if (a.equals("Kenan")){
+        FakePredicate<String> test3 = (a) -> {
+            if (a.equals("Kenan")) {
                 System.out.println("Giris basarili ");
-            }
-            else {
+            } else {
                 System.out.println("Giris basarisiz");
             }
             return false;
@@ -41,21 +39,11 @@ public class Main {
         test3.deyer("Kenans");
 
 
-        FakeSupplier<String> test4=()->"Salam olsun Deyerli Mentorlara";
+        FakeSupplier<String> test4 = () -> "Salam olsun Deyerli Mentorlara";
         System.out.println(test4.nese());
 
-        FakeBiFunction<Integer ,Integer,Integer> test5 = (a, b) -> a * b;
-        System.out.println(test5.biQaytar(2,3));
-
-
-
-
-
-
-
-
-
-
+        FakeBiFunction<Integer, Double,Double> test5 = (a, b) -> a/b;
+        System.out.println(test5.biQaytar(2, 3.));
 
 
     }
