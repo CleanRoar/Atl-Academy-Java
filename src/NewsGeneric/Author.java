@@ -25,6 +25,10 @@ public class Author<T> {
         this.lastName = lastName;
     }
 
+    public void fullAuthorName(){
+        System.out.println(firstName+" "+lastName);
+    }
+
     @Override
     public String toString() {
         return "Author{" +

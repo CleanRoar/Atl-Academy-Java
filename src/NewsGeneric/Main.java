@@ -10,6 +10,8 @@ public class Main {
                 new Author<>("Kenan", "Musayev"), LocalDate.now());
 
         test.xeberInfo();
+        test.formatVaxt();
+
 
     }
 }

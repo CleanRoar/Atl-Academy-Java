@@ -1,6 +1,7 @@
 package NewsGeneric;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class News<T,U extends Category,K extends Author>  {
     private T newsName;
@@ -45,6 +46,11 @@ public class News<T,U extends Category,K extends Author>  {
 
     public void setNewsTime(LocalDate newsTime) {
         this.newsTime = newsTime;
+    }
+
+
+    public String formatVaxt(){
+        return newsTime.format(DateTimeFormatter.ofPattern("dd/MM/yyyy"));
     }
 
     public void xeberInfo(){
