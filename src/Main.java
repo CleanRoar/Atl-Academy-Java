@@ -1,73 +1,50 @@
-import java.time.Instant;
-import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.function.Consumer;
-import java.util.function.Predicate;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.function.Supplier;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
 
-//        Human insan =new Human();
-//        ArrayList<Human> test =new ArrayList<>();
-//        LocalDate doguymGunu =LocalDate.of(2002,5,30);
-//        test.add(new Human("Kenan", doguymGunu,22));
-//        test.add(new Human("Kamran", doguymGunu,23));
-//        test.add(new Human("Cavid", doguymGunu,18));
-//        Map<String, Integer> test2 =new HashMap<>();
-////
-////        test.forEach((x)->{
-////            if (x.getYas()>20){
-////                System.out.println(x);
-////            }
-////        });
-//
-//        test.forEach((x)->{
-//            test2.put(x.getName(), x.getYas());
-//        });
-//
-//        System.out.println(test2);
 
 
-        String ulduz ="*";
-        String bosluq =" ";
+        ArrayList<Integer> test =new ArrayList<>();
+        test.add(1);
+        test.add(2);
+        test.add(3);
+        test.add(4);
+        test.add(5);
+        test.add(6);
+        test.add(7);
+
+        int baslangicIndex=0;
+        int sonIndex=test.size()-1;
+        int orta=(baslangicIndex+sonIndex)/2;
+        int n =1;
 
 
-        for (var i = 1; i <= 5; i++) {
-            // Boşluqları çap edirik ki, ulduzlar mərkəzlənsin
-            for (var j = 1; j <= 5 - i; j++) {
-                System.out.print(" "); // Boşluqları çap edirik
+        while (baslangicIndex<=sonIndex){
+            if (test.get(orta)==n){
+                System.out.println("tapildi ilk :"+n);
+                break;
+            } else if (test.get(orta)<n) {
+                baslangicIndex=orta+1;
+                System.out.println("tapildi sag : "+n);
+                break;
+
             }
-            // Ulduzları çap edirik
-            for (var k = 1; k <= (2 * i - 1); k++) {
-                System.out.print(ulduz); // Ulduzları çap edirik
+            else {
+                sonIndex=orta-1;
+                System.out.println("tapildi sol:"+n);
+                break;
+
             }
-            // Yeni sətrə keçirik
-            System.out.println();
-        }
-
-
-
-
-
-
-
-
-
 
 
 
         }
-
-
-
-
-
-
 
 
 
@@ -77,7 +54,4 @@ public class Main {
 
 
     }
-
-
-
-
+}
