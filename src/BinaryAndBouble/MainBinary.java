@@ -15,21 +15,21 @@ public class MainBinary {
 
         int baslangicIndex = 0;
         int sonIndex = test.size() - 1;
-        int orta = (baslangicIndex + sonIndex) / 2;
+        int ortaIndex = (baslangicIndex + sonIndex) / 2;
         int n = 1;
 
 
         while (baslangicIndex <= sonIndex) {
-            if (test.get(orta) == n) {
+            if (test.get(ortaIndex) == n) {
                 System.out.println("tapildi ilk :" + n);
                 break;
-            } else if (test.get(orta) < n) {
-                baslangicIndex = orta + 1;
+            } else if (test.get(ortaIndex) < n) {
+                baslangicIndex = ortaIndex + 1;
                 System.out.println("tapildi sag : " + n);
                 break;
 
             } else {
-                sonIndex = orta - 1;
+                sonIndex = ortaIndex - 1;
                 System.out.println("tapildi sol:" + n);
                 break;
 
