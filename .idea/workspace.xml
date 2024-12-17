@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a00934b9-8242-4114-b0d8-c09863dc1c27" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
-      <change afterPath="$PROJECT_DIR$/src/ComparableAndComparator/IdComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComparableAndComparator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComparableAndComparator/NameComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ComparableAndComparator/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamAPI/StreamAPI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamAPI/src/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StreamAPI/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryAndBouble/MainBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryAndBouble/MainBinary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComparableAndComparator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ComparableAndComparator/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,13 +87,13 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/ACER/IdeaProjects/DersJava/CourseGenerics/src/Main.java",
+    "onboarding.tips.debug.path": "C:/Users/ACER/IdeaProjects/DersJava/StreamAPI/src/Main.java",
     "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ComparableAndComparator.Main">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="ComparableAndComparator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ComparableAndComparator.Main" />
       <module name="DersJava" />
@@ -115,14 +115,8 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CourseGenerics.Main" />
-      <module name="DersJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CourseGenerics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="MAIN_CLASS_NAME" value="CostomerStream.Main" />
+      <module name="StreamAPI" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.ComparableAndComparator.Main" />
         <item itemvalue="Application.MainBinary" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -165,30 +159,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731606790121</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Merge remote-tracking branch 'origin/main'">
-      <option name="closed" value="true" />
-      <created>1731606903365</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1731606903365</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Merge remote-tracking branch 'origin/main'">
-      <option name="closed" value="true" />
-      <created>1731614410351</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1731614410351</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Merge remote-tracking branch 'origin/main'">
-      <option name="closed" value="true" />
-      <created>1731619690396</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1731619690396</updated>
     </task>
     <task id="LOCAL-00004" summary="Merge remote-tracking branch 'origin/main'">
       <option name="closed" value="true" />
@@ -550,7 +520,39 @@
       <option name="project" value="LOCAL" />
       <updated>1734425398277</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1734436166639</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1734436166639</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1734436171132</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1734436171133</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1734436180818</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1734436180818</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1734436205945</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1734436205945</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

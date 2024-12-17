@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/DersJava.iml" filepath="$PROJECT_DIR$/DersJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generics/Generics.iml" filepath="$PROJECT_DIR$/Generics/Generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/HotelAPP/HotelAPP.iml" filepath="$PROJECT_DIR$/HotelAPP/HotelAPP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StreamAPI/StreamAPI.iml" filepath="$PROJECT_DIR$/StreamAPI/StreamAPI.iml" />
     </modules>
   </component>
 </project>
