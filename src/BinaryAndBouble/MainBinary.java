@@ -4,36 +4,57 @@ import java.util.ArrayList;
 
 public class MainBinary {
     public static void main(String[] args) {
-        ArrayList<Integer> test = new ArrayList<>();
-        test.add(1);
-        test.add(2);
-        test.add(3);
-        test.add(4);
-        test.add(5);
-        test.add(6);
-        test.add(7);
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(11);
+        list.add(2);
+        list.add(9);
+        list.add(4);
+        list.add(5);
+        list.add(13);
+        list.add(10);
+//
+//        int baslangicIndex = 0;
+//        int sonIndex = test.size() - 1;
+//
+//        int n = 4;
+//
+//
+//        while (baslangicIndex <= sonIndex) {
+//             int ortaIndex = (baslangicIndex + sonIndex) / 2;
+//            if (test.get(ortaIndex) == n) {
+//                System.out.println("tapildi orta :" + test.get(ortaIndex));
+//                break;
+//            } else if (test.get(ortaIndex) > n) {
+//                sonIndex = ortaIndex - 1;
+//
+//
+//            } else {
+//                baslangicIndex = ortaIndex + 1;
+//            }
+//
+//
+//        }
 
-        int baslangicIndex = 0;
-        int sonIndex = test.size() - 1;
-        int ortaIndex = (baslangicIndex + sonIndex) / 2;
-        int n = 1;
 
 
-        while (baslangicIndex <= sonIndex) {
-            if (test.get(ortaIndex) == n) {
-                System.out.println("tapildi ilk :" + n);
-                break;
-            } else if (test.get(ortaIndex) < n) {
-                baslangicIndex = ortaIndex + 1;
-                System.out.println("tapildi sag : " + n);
-                break;
 
-            } else {
-                sonIndex = ortaIndex - 1;
-                System.out.println("tapildi sol:" + n);
-                break;
 
+        System.out.println("Sıralanmamış siyahı: " + list);
+
+        // Bubble Sort alqoritmi
+        for (int i = 0; i < list.size() - 1; i++) {
+            for (int j = 0; j < list.size() -1; j++) {
+                int temp = 0;
+                if(list.get(j)>list.get(j+1)){
+                    temp=list.get(j);
+                    list.set(j, list.get(j+1));
+                    list.set(j+1,temp);
+                }
             }
         }
+
+        System.out.println("Sıralanmış siyahı: " + list);
+
+
     }
 }
