@@ -11,6 +11,9 @@ public class Main {
         list.add(new Customer("Ali", 150.0));
         list.add(new Customer("Veli", 200.0));
 
+
+
+
         Stream<Customer> test = list.stream()
                 .filter(x -> x.getCustomerDebit() > 350)
                 .map(x -> new Customer(x.getCustomerName(),x.getCustomerDebit()*1.5));
