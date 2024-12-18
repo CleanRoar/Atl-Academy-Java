@@ -37,6 +37,7 @@ public class Main {
 
         List<String> test = list.stream()
                 .filter(x->x.length()>5)
+                .sorted()
                 .toList();
         System.out.println(test);
         //Output : birdene GulCohre cixir.
