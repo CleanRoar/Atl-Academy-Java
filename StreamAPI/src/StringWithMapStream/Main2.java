@@ -5,10 +5,14 @@ import java.util.List;
 
 public class Main2 {
     public static void main(String[] args) {
-        List<Integer>  list2 = Arrays.asList(1,2,3,4,5,6);
-        List<Integer> list2Uptade= list2.stream()
+        List<List<Integer>>  list = Arrays.asList(Arrays.asList(1,2,3,4,56)
+                ,Arrays.asList(1,3,4,56,5)
+                ,Arrays.asList(2,4,56,7,32,2));
+
+
+        List<List<Integer>> listUptade= list.stream()
                 .map(x->x).toList();
 
-        System.out.println(list2Uptade);
+        System.out.println(listUptade);
     }
 }
