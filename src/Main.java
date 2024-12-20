@@ -1,18 +1,22 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Locale;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.*;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
-        var a = new Generic<>();
+        File test =new File("nese");
 
-        a.test(new Integer[]{1, 2, 3, 4, 5, 6}, x -> x % 2 == 0);
+        FileWriter a =new FileWriter(test);
+        a.write("kenan");
 
-        a.test(new String[]{"Kenan", "Ali", "Veli", "Deli"}, x -> x.startsWith("K"));
 
-        a.test(new Double[]{1.0, 4.5, 6.8, 5.4}, x -> x > 2.0);
+
+
+
+
+
     }
 }
