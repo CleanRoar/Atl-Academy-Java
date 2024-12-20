@@ -10,8 +10,9 @@ public class Main2 {
                 ,Arrays.asList(2,4,56,7,32,2));
 
 
-        List<List<Integer>> listUptade= list.stream()
-                .map(x->x).toList();
+        List<Integer> listUptade= list.stream()
+                        .flatMap(x->x.stream())
+                                .toList();
 
         System.out.println(listUptade);
     }
