@@ -10,7 +10,12 @@ public class Main {
         List<String> list = Arrays.asList("Kenan","Ali","Veli");
 
         List<String> listTest= list.stream()
-                .map(x->String.join("       ",x.split(""))).toList();
+                .map(x->String.join("  ",x.split(""))).toList();
         System.out.println(listTest);
+
+
+
+
+
     }
 }
