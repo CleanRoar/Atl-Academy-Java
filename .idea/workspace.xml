@@ -5,6 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a00934b9-8242-4114-b0d8-c09863dc1c27" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
+      <change afterPath="$PROJECT_DIR$/Generics/src/GenericQueue/GnQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Generics/src/GenericQueue/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinaryAndBouble/MainBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryAndBouble/MainBinary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FcInterface/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FcInterface/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FileTasks/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileTasks/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +60,7 @@
     "Application.BookShopOOP.Main.executor": "Run",
     "Application.ComparableAndComparator.Main.executor": "Run",
     "Application.FileTasks.Main.executor": "Run",
+    "Application.GenericQueue.Main.executor": "Run",
     "Application.GenericStream.Main.executor": "Run",
     "Application.LinkedListStream.Main.executor": "Run",
     "Application.Loops_For_While.executor": "Run",
@@ -93,7 +99,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.FileTasks.Main">
+  <component name="RunManager" selected="Application.GenericQueue.Main">
     <configuration name="FileTasks.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FileTasks.Main" />
       <module name="DersJava" />
@@ -107,22 +113,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="DersJava" />
+    <configuration name="GenericQueue.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GenericQueue.Main" />
+      <module name="Generics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GenericQueue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringWithMapStream.Main" />
-      <module name="StreamAPI" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="StringWithMapStream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="DersJava" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenericQueue.Main" />
         <item itemvalue="Application.FileTasks.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Tic_Tac_Toe" />
         <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -165,14 +171,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731606790121</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Merge remote-tracking branch 'origin/main'">
-      <option name="closed" value="true" />
-      <created>1732557774755</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1732557774755</updated>
     </task>
     <task id="LOCAL-00014" summary="Merge remote-tracking branch 'origin/main'">
       <option name="closed" value="true" />
@@ -558,7 +556,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735039711299</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1735041163560</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1735041163560</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

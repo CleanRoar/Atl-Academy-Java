@@ -21,7 +21,11 @@ public class Main {
 
         while ((nelerse = testReader.read()) != -1) {
             System.out.print((char) nelerse);
+
+
         }
+
+
 
 
     }

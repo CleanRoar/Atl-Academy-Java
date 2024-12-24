@@ -14,17 +14,17 @@ public class MainBinary {
         list.add(10);
 //
 //        int baslangicIndex = 0;
-//        int sonIndex = test.size() - 1;
+//        int sonIndex = main.size() - 1;
 //
 //        int n = 4;
 //
 //
 //        while (baslangicIndex <= sonIndex) {
 //             int ortaIndex = (baslangicIndex + sonIndex) / 2;
-//            if (test.get(ortaIndex) == n) {
-//                System.out.println("tapildi orta :" + test.get(ortaIndex));
+//            if (main.get(ortaIndex) == n) {
+//                System.out.println("tapildi orta :" + main.get(ortaIndex));
 //                break;
-//            } else if (test.get(ortaIndex) > n) {
+//            } else if (main.get(ortaIndex) > n) {
 //                sonIndex = ortaIndex - 1;
 //
 //

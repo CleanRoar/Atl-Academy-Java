@@ -16,7 +16,7 @@ public class Main {
 //        Predcate-ler daha təkmil şərtlər yaratmaq üçün AND, OR və NOT kimi
 //        məntiqi operatorlardan istifadə etməklə birləşdirilə bilər.
 //        Məlumatların filtrasiyası, doğrulama və şərti emal kimi tapşırıqlar üçün faydalıdır.
-//        Predicate-de deyer test methodu ile oturul.
+//        Predicate-de deyer main methodu ile oturul.
 
 
         FakeConsumer<Integer> test = System.out::println;
