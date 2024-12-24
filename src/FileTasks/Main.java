@@ -6,9 +6,10 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class Main {
+    public static final String myFile="C:/Users/ACER/IdeaProjects/DersJava/src/FileTasks/Hello.txt";
     public static void main(String[] args) throws IOException {
 
-        File test =new File("C:/Users/ACER/IdeaProjects/DersJava/src/FileTasks/Hello");
+        File test =new File(myFile);
         test.createNewFile();
 
         FileWriter testWriter =new FileWriter(test);
