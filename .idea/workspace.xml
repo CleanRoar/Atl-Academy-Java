@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a00934b9-8242-4114-b0d8-c09863dc1c27" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
+      <change afterPath="$PROJECT_DIR$/src/Practise/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practise/Mekteb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practise/Telebe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Generics/src/GenericQueue/GnQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generics/src/GenericQueue/GnQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generics/src/GenericQueue/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generics/src/GenericQueue/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practise/Sezon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StudentRegisterOOP/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StudentRegisterOOP/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tic_Tac_Toe.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,54 +57,66 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ArreysMethodsOOP.Main.executor": "Run",
-    "Application.BankAmount.executor": "Run",
-    "Application.BankAppFullOOP.Main.executor": "Run",
-    "Application.BookShopOOP.Main.executor": "Run",
-    "Application.ComparableAndComparator.Main.executor": "Run",
-    "Application.FileTasks.Main.executor": "Run",
-    "Application.GenericQueue.Main.executor": "Run",
-    "Application.GenericStream.Main.executor": "Run",
-    "Application.LinkedListStream.Main.executor": "Run",
-    "Application.Loops_For_While.executor": "Run",
-    "Application.Main (1).executor": "Run",
-    "Application.Main (2).executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.Main2.executor": "Debug",
-    "Application.MainBinary.executor": "Run",
-    "Application.ManagerOOP.Main.executor": "Run",
-    "Application.NewsGeneric.Main.executor": "Run",
-    "Application.Person.executor": "Run",
-    "Application.Practise.executor": "Run",
-    "Application.SetStream.Main.executor": "Run",
-    "Application.StudentHashSet.Main.executor": "Run",
-    "Application.Task3.executor": "Run",
-    "Application.Task4.executor": "Run",
-    "Application.Task5.executor": "Run",
-    "Application.TestAcademy.executor": "Run",
-    "Application.Tic_Tac_Toe.executor": "Run",
-    "Application.TravelAPP.Main.executor": "Run",
-    "Application.numberWithSpace.executor": "Run",
-    "Application.task2.executor": "Run",
-    "Application.task_Faktorial.executor": "Run",
-    "Application.task_For_num.executor": "Run",
-    "Application.task_arr2.executor": "Run",
-    "Application.task_chess64.executor": "Run",
-    "Application.task_for_if.executor": "Run",
-    "Application.testAcademy.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/ACER/IdeaProjects/DersJava/StreamAPI/src/Main.java",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ArreysMethodsOOP.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankAmount.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BankAppFullOOP.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.BookShopOOP.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ComparableAndComparator.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FileTasks.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenericQueue.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GenericStream.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedListStream.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Loops_For_While.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main2.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MainBinary.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ManagerOOP.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.NewsGeneric.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Person.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Practise.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SetStream.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.StudentHashSet.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task3.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task4.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Task5.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestAcademy.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Tic_Tac_Toe.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TravelAPP.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.numberWithSpace.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task_Faktorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task_For_num.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task_arr2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task_chess64.executor&quot;: &quot;Run&quot;,
+    &quot;Application.task_for_if.executor&quot;: &quot;Run&quot;,
+    &quot;Application.testAcademy.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/ACER/IdeaProjects/DersJava/StreamAPI/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
   }
-}]]></component>
-  <component name="RunManager" selected="Application.GenericQueue.Main">
+}</component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="FileTasks.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FileTasks.Main" />
       <module name="DersJava" />
@@ -130,12 +150,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringWithMapStream.Main2" />
-      <module name="StreamAPI" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practise.Main" />
+      <module name="DersJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="StringWithMapStream.*" />
+          <option name="PATTERN" value="Practise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,13 +172,21 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.GenericQueue.Main" />
         <item itemvalue="Application.FileTasks.Main" />
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Tic_Tac_Toe" />
-        <item itemvalue="Application.Main2" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.24807.4" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.24807.4" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -168,22 +196,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731606790121</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;src/Main.java">
-      <option name="closed" value="true" />
-      <created>1733132985284</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1733132985284</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;src/Main.java">
-      <option name="closed" value="true" />
-      <created>1733136595306</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1733136595306</updated>
+      <workItem from="1735470206175" duration="232000" />
+      <workItem from="1735470742245" duration="47000" />
+      <workItem from="1735470802581" duration="34000" />
+      <workItem from="1735470850978" duration="53000" />
+      <workItem from="1735470916064" duration="66000" />
+      <workItem from="1735471979019" duration="1091000" />
+      <workItem from="1736151190446" duration="20693000" />
     </task>
     <task id="LOCAL-00018" summary="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;src/Main.java">
       <option name="closed" value="true" />
@@ -561,8 +580,27 @@
       <option name="project" value="LOCAL" />
       <updated>1735126516352</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1735127804281</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1735127804281</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1735127835830</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1735127835830</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Merge remote-tracking branch 'origin/main'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;src/Main.java&#10;#&#9;src/Practise.java" />
@@ -575,12 +613,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/Practise/Sezon.java</url>
-          <line>9</line>
-          <properties field="min" class="Practise.Sezon" />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/StudentHashSet/Main.java</url>
           <line>3</line>
@@ -589,11 +621,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Tic_Tac_Toe.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
